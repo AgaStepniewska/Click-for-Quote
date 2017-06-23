@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps|Raleway:400,700,900");
+.margin, body header h1, body .div {
+  margin-left: auto;
+  margin-right: auto; }
+
+body {
+  background-image: url(https://images.pexels.com/photos/311039/pexels-photo-311039.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1600px; }
+  body header h1 {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    max-width: 80%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 5%; }
+  body .quote {
+    font-family: "Bilbo Swash Caps", cursive;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+    font-weight: 400; }
+  body .author {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    text-align: right;
+    font-weight: 400;
+    margin-right: 10%; }
+  body .div {
+    max-width: 70%;
+    text-align: center; }
+    body .div .trigger {
+      margin-top: 2%;
+      width: 150px;
+      height: 50px;
+      border: 1px solid #3a3e64;
+      border-radius: 5%;
+      font-size: 18px;
+      background-color: rgba(78, 137, 195, 0.5);
+      font-family: "Raleway", sans-serif;
+      color: #fff; }
+      body .div .trigger:hover {
+        background-color: #4e89c3; }
+    body .div .fa-twitter {
+      font-size: 35px;
+      margin-top: 20px;
+      color: #3a3e64; }
+    body .div a {
+      padding-top: 20px;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-bottom: 15px;
+      border: 1px solid #3a3e64;
+      border-radius: 5%;
+      background-color: rgba(78, 137, 195, 0.5); }
+      body .div a:hover {
+        background-color: #4e89c3; }
+      body .div a span {
+        font-size: 16px; }

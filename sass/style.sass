@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps|Raleway:400,700,900')
+$font1: 'Raleway', sans-serif
+$font2: 'Bilbo Swash Caps', cursive
+.margin
+	margin-left: auto
+	margin-right: auto
+body
+	background-image: url(https://images.pexels.com/photos/311039/pexels-photo-311039.jpeg?w=940&h=650&auto=compress&cs=tinysrgb)	
+	background-repeat: no-repeat
+	background-size: cover
+	max-width: 1600px
+	header
+		h1
+			font-family: $font1
+			text-transform: uppercase
+			max-width: 80%
+			@extend .margin
+			text-align: center
+			font-weight: 700
+			font-size: 30px
+			margin-top: 5%
+
+	.quote
+		font-family: $font2
+		font-size: 50px
+		text-align: center
+		padding: 30px
+		font-weight: 400
+	.author
+		font-family: $font1
+		font-size: 18px
+		padding: 10px
+		text-align: right
+		font-weight: 400
+		margin-right: 10%
+	.div
+		max-width: 70%
+		@extend .margin
+		text-align: center
+		.trigger
+			margin-top: 2%
+			width: 150px
+			height: 50px
+			border: 1px solid #3a3e64
+			border-radius: 5%
+			font-size: 18px
+			background-color: rgba(78, 137, 195, 0.5)
+			font-family: $font1
+			color: #fff
+			&:hover
+				background-color: #4e89c3
+		.fa-twitter
+			font-size: 35px
+			margin-top: 20px
+			color: #3a3e64
+		a
+			padding-top: 20px
+			padding-left: 25px
+			padding-right: 25px
+			padding-bottom: 15px
+			border: 1px solid #3a3e64
+			border-radius: 5%
+			background-color: rgba(78, 137, 195, 0.5)
+			&:hover
+				background-color: #4e89c3
+			span
+				font-size: 16px
