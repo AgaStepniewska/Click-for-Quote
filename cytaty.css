@@ -47,12 +47,10 @@ body {
     body .div .fa-twitter {
       font-size: 35px;
       margin-top: 20px;
+      margin-bottom: 20px;
       color: #3a3e64; }
     body .div a {
-      padding-top: 20px;
-      padding-left: 25px;
-      padding-right: 25px;
-      padding-bottom: 15px;
+      padding: 20px 25px 15px 25px;
       border: 1px solid #3a3e64;
       border-radius: 5%;
       background-color: rgba(78, 137, 195, 0.5); }
